@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  postgresal:
+    image: postgres
+    container_name: cryptomus
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES_HOST=localhost
+      - POSTGRES_USER=cryptomus
+      - POSTGRES_PASSWORD=cryptomus
+      - POSTGRES_DATABASE=cryptomus
+    command: postgres
+    restart: always
