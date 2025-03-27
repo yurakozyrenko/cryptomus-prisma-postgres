@@ -4,7 +4,7 @@ import { TokenModule } from './token/token.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { CryptomusModule } from './cryptomus/cryptomus.module';
-import configuration from './configuration';
+import configuration from './configuration/config';
 import { ScheduleModule } from '@nestjs/schedule';
 
 @Module({
